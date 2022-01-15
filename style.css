@@ -1,9 +1,12 @@
 
 #tieude{
 
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 0, 0, 0.562));
+    
     width: 100%;
     height: 80px;
     background-color: #243C57;
+    
 
 }
 
@@ -37,11 +40,15 @@ i{
 
 
 .menu{
-
+    
     float: left;
     width: 100%;
     background-color: #EAE7E7;
+   
+   
 }
+
+
 
 .menu > p{
 
@@ -52,6 +59,7 @@ i{
     font-weight: 800;
     letter-spacing: 10px;
 }
+
 
 ul{
     padding-left: 350px;
@@ -64,7 +72,7 @@ li{
      
 }
 
-li > a{
+ul li  a{
 
     padding: 30px;
     text-decoration: none;
@@ -74,18 +82,38 @@ li > a{
 
 }
 
-li > a:hover{
+ul li a:hover{
 
     color: #97147b ;
     background: #c7d361;
     border-radius: 20px;
 }
 
+ul li ul{
 
-.trangchu{
+    display: none;
+    position: absolute;
+
+}
+
+ul li:hover ul {
+
+    padding: 50px;
+    padding-left: 320px;
+    display: block;
+}
+
+
+
+ul li > a:visited .gioithieu{
+    color: #0d519e;
+}
+
+
+#trangchu{
 
     width: 100%;
-    height: 90vh    ;
+    height: 90vh;
     background-image:url(images/bgrw.png);
     background-size: 100% 650px;
     background-repeat: no-repeat;
@@ -160,52 +188,52 @@ li > a:hover{
 
 }
 
-.gioithieu{
+#gioithieu{
 
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: 90vh;
     background-color: #dde3eb;
  
 }
 
-.vanhoa{
+#vanhoa{
 
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: 90vh;
     background-color: #919923;
 }
 
-.amthuc{
+#amthuc{
 
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: 90vh;
     background-color: #1b85ff;
 }
 
-.trochoi{
+#trochoi{
 
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: 90vh;
     background-color: #b82bb8;
 }
 
-.gopy{
+#gopy{
 
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: 90vh;
     background-color: #8a6bb3;
   
 }
 
-.lienhe{
+#lienhe{
 
     float: left;
     width: 100%;
-    min-height: 300px;
+    height: 90vh;
     background-color: #243447;
 }
